@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work-Day-Scheduler
+# 05 Third-Party APIs: Work Day Scheduler
 For this project, I had to build a Calendar Application whilst utilising Moment.js, Bootstrap and jQueryUI.
 
 ## User Story
