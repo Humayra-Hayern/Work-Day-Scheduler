@@ -9,8 +9,8 @@ var tenAM = $("#10AM");
 var elevenAM = $("#11AM");
 var twelvePM = $("#12PM");
 var onePM = $("#13PM");
-var twoPM = $("#14PM");
-var threePM = $("#3PM");
+var twoPM = $("#22PM");
+var threePM = $("#23PM");
 var fourPM = $("#4PM");
 var fivePM = $("#5PM");
 var hour = moment().hours();
@@ -44,10 +44,10 @@ function initPage() {
   var init13 = JSON.parse(localStorage.getItem("13:00PM"));
   onePM.val(init13);
 
-  var init14 = JSON.parse(localStorage.getItem("14:00PM"));
+  var init14 = JSON.parse(localStorage.getItem("22:00PM"));
   twoPM.val(init14);
 
-  var init15 = JSON.parse(localStorage.getItem("15:00PM"));
+  var init15 = JSON.parse(localStorage.getItem("23:00PM"));
   threePM.val(init15);
 
   var init16 = JSON.parse(localStorage.getItem("16:00PM"));
