@@ -2,23 +2,43 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    height: 150vh;
   }
   
-  textarea {
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-  }
-  
+  /* Used in the Header. */
   .jumbotron {
     text-align: center;
     background-color: transparent;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    margin-bottom: 5rem;
+  }
+  
+  /* Used in timeblocks. */
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  /* Used in timeblocks. */
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border: 1px solid black;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  .input-group-text {
+    border: none;
+  }
+  
+  .form-control {
+    border: none;
   }
   
   .description {
@@ -30,33 +50,31 @@ body {
     border-radius: 15px;
   }
   
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;
-  }
-  
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
   }
   
+  /* This changes the colour of text box depending on the time of day. */
   .past {
     background-color: #d3d3d3;
     color: white;
   }
   
+  /* This changes colour of text box depending on the time of day. */
   .present {
     background-color: #ff6961;
     color: white;
   }
   
+  /* This changes colour of text box depending on the time of day. */
   .future {
     background-color: #77dd77;
     color: white;
   }
   
+  /* Saves text to local storage  */
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -69,4 +87,3 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
