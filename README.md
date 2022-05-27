@@ -32,6 +32,8 @@ THEN the saved events persist
 ## Appearance
 The following image shows the website's appearance and functionality
 
+![dailyplanner](https://user-images.githubusercontent.com/95111780/170722707-76e8e0f5-196a-4c90-8a42-c459a7ca4a27.PNG)
+
 ## Links
 * https://humayra-hayern.github.io/Work-Day-Scheduler/
 
